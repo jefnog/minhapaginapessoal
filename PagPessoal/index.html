@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+ 	<title>PPjeferson</title>
+    <meta charset="utf-8">
+       <style>
+       	 div { 
+   			 display: block;
+		 }
+         form { 
+    	 	 display: block;
+   			 margin-top: 0em;
+		 }
+		 label {
+   			 cursor: default;
+   		 }
+  		 #suando {
+             color: red;
+             background-color: yellow;
+  	     }
+
+   		 body{
+        	 background-image: url(imagens/parchment.jpg);
+         }   
+       </style>	
+ </head>
+
+ <body>
+		<h1>Página Pessoal => Jef Nogueira</h1>
+		
+		<figure>
+			<figcaption>Heráldica<figcaption/>
+			<img src="imagens/herald-family-nog1.jpg" alt="heraldica" width="500" align="middle"/>
+		</figure>
+
+		<div id="curric">
+		<h2>Curriculum:</h2>
+			<ul>
+				<li>Aluno: Tecnologia em Análise e Desenvolvimento de Sistemas</li>
+				<li>Idade: 52</li>
+				<li>Gênero: Masc</li>
+				<li>Hobby: Astronomia</li>
+			</ul>
+		</div>
+
+		<hr>
+		
+		<div class="lig">
+			<nav>
+				<ul>
+					<li><a href=”https://www.facebook.com/jefnog”>Pagina no facebook</a></li>
+					<li><a href=”https://br.linkedin.com/”>Pagina no LinkedIn</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<hr>
+
+		<div class="email" style="color:purple">
+			<h2>Para entrar em contato enviar e-mail para</h2>
+			<a href="jefnog@gmail.com"> jefnog@gmail.com </a>
+		</div>	
+
+		<hr>
+
+		<div class="media">
+			<video controls="controls" autoplay="autoplay" width="200" height="150">
+		  		 <source src="video/sonho1.mp4" type="video/mp4">
+			</video>
+			<br>		
+			<audio controls="controls"> 
+				  <source src="audio/LightMyFire_Doors.mp3" type="audio/mp3" />
+			</audio>
+		</div>
+
+		<hr>
+
+		<div class="formulario">
+
+			<h3>Participe de nossa enquete:</h3>
+			<form action="/action_page_binary.asp" method="post" autocomplete="on"><br>
+
+					Pre-nome: <input type="text" name="FirstName"  maxlength="20"value="enter"><br>
+					Sobrenome: <input type="text" name="LastName"  maxlength="20"value="enter"><br>
+					E-mail: <input type="email" name="email"><br>
+
+					Informe seu gênero:<br>
+ 					  <input type="radio" name="gender" value="male"> Masc<br>
+ 					  <input type="radio" name="gender" value="female"> Fem<br>
+ 					  <input type="radio" name="gender" value="other" checked> Outros<br>
+
+ 					Você possui animal de estimação:<br>
+ 					  <input type="checkbox" name="dog" value="dog">cachorro<br>
+					  <input type="checkbox" name="cat" value="cat">gato<br>
+					  <input type="checkbox" name="parrot" value="parrot">papagaio<br>
+					  <input type="checkbox" name="not" value="not">Não possuo<br>
+
+ 					Qual a sua faixa etária em anos: 
+ 				     <select name="anos">
+   					  <option value="10" selected>10 a 20</option>
+  					  <option value="20">20 a 30</option>
+  					  <option value="30">30 a 40</option>
+ 				      <option value="40">acima de 40</option>
+  					 </select><br>
+
+  					 Deixe seu comentário:<br>
+  					   <textarea name="message" rows="5" cols="30">texto</textarea><br>
+  					 Encryption: <keygen name="security"><br>
+
+				 <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+			</form>
+		</div>
+
+		<hr>
+		<hr>
+		
+		<footer>
+			<p> Elaborado por <strong>Jeferson </strong></p>
+			<p><strong>Direitos autorais:</strong> <br> distribuição livre <br> proibida alteração</p>
+		</footer>
+
+		<p id="suando"><em>.......Tá Suave........</em></p>
+
+		<img src="imagens/foto.jpg" alt="Tá Suave" width="300" align="middle"/>
+
+ </body>
+</html>
